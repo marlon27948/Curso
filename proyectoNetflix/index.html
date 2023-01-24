@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+<body class="m-0 p-0 box-border w-[98.7vw] h-[98.7vh] bg-black grid grid rows-7 w-[100%] h-[100%]">
+
+    <main style="background-image: url(./imagenes/fondoNetflix.jpg);" class="bg-no-repeat bg-cover w-[100%] h-[693px]" >
+        <div class="w-[100%] h-[100%] bg-gradient-to-b from-black/90 via-black/25 to-black/90">
+            <nav class="w-[100%] h-[10%] pt-[30px] flex justify-between">
+                <img class="w-[210px] h-[40px] pl-[70px]" src="./imagenes/Logonetflix.png.webp" alt="">
+                <div class=" w-[350px] flex place-content-center items-center gap-[30px]">
+                    <button>
+                        <img class="w-[100px] h-[40px]" src="./imagenes/idiomas.png" alt="">
+                    </button>
+                    <img class="w-[130px] h-[39px] " src="./imagenes/iniciarSesion.png" alt="">
+                </div>
+            </nav>
+            <section class="h-[90%] w-[100%] flex flex-col items-center">
+                <div class="flex flex-col items-center justify-end gap-[20px] h-[70%] pb-[20px]">
+                    <h1 class="w-[650px] text-center text-[50px] text-white font-bold leading-[55px]">Películas y series ilimitadas y mucho más</h1>
+                    <h2 class=" text-center text-[30px] text-white font-medium">Disfruta donde quiras. Cancela cuando quieras.</h2>
+                    <h3 class=" texte-center text-[20px] text-white font-medium">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3>
+                </div>
+                <div class=" flex h-[70px]">
+                    <input class="w-[500px] h-[100%] pl-[20px]" placeholder="Email" type="text">
+                    <img class="w-[200px] h-[100%]" src="./imagenes/comenzar.png" alt="">
+                </div>
+            </section>
+        </div>
+    </main>
+
+<!--primera seccion-->
+    <section class="w-[100%] h-[550px] border-t-8 border-b-8 border-gray-800">
+    <div class="grid grid-cols-2 px-[45px] py-[70px]">
+        <div class=" flex flex-col justify-center items-end gap-[20px]">
+            <h1 class="w-[500px] text-white text-[53px] font-bold leading-[55px] w-[570px]">Disfruta en tu TV</h1>
+            <h2 class=" w-[500px] text-white text-[28px] font-normal leading-[35px] w-[570px]">Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h2>
+        </div>
+        <div class="flex justify-end h-[432px]">
+            <div style="background-image: url(./imagenes/imagenSection1.png);" class=" flex justify-center items-center bg-no-repeat bg-cover w-[560px] h-[430px]">
+                <video autoplay controls class="w-[420px] h-[245px] pl-[10px] pb-[17px]" src="./imagenes/hauntingvid.m4v"></video>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!--segunda seccion-->
+    <section class="py-[70px] w-[100%] border-b-8 border-gray-800 h-[550px]">
+    <div class="grid grid-cols-2 justify-between w-[100%] h-[400px] gap-[50px] ">
+        <div class="flex flex-col place-items-center w-[550px]">
+            <div>
+                <img class="w-[550px] h-[390px]" src="./imagenes/StrangerThings.jpg" alt="">
+            </div>
+            <div class="flex justify-center space-x-[80px] p-[9px] bg-black mt-[-120px] rounded-[15px] border-2 border-gray-500 w-[350px] h-[95px]">
+                <img class="w-[52px] h-[72px]" src="./imagenes/boxshot.png" alt="">
+                <div class="flex-col justify-items-center">
+                    <p class="text-white font-semibold">Stranger Things</p>
+                    <p class="text-blue-500" >Descargando...</p>
+                </div>
+                <div class="ml-[0px]">
+                    <img class="w-[60px] h-[60px]" src="./imagenes/download-icon.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <div class=" flex flex-col justify-center gap-[20px] h-[400px]">
+            <h1 class="w-[500px] text-white text-[53px] font-bold leading-[55px]">Descarga tus series para verlas offline</h1>
+            <h2 class=" w-[500px] text-white text-[28px] font-normal leading-[35px]">Guarda tu contenido favorito y tendrás siempre algo para ver.</h2>
+        </div>
+    </div>
+    </section>
+
+<!--tercera seccion-->
+    <section class="w-[100%] h-[550px] border-b-8 border-gray-800">
+        <div class="grid grid-cols-2 px-[45px] py-[70px]">
+            <div class="flex flex-col justify-center items-start gap-[20px] pl-[20px]">
+                <h1 class="w-[500px] text-white text-[53px] font-bold leading-[55px] w-[570px]">Disfruta donde quieras</h1>
+                <h2 class=" w-[500px] text-white text-[28px] font-normal leading-[35px] w-[570px]">Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo adicional.</h2>
+            </div>
+            <div class="flex justify-end h-[420px]">
+                <div style="background-image: url(./imagenes/imgSection3.png);" class=" flex justify-center items-start bg-no-repeat bg-cover w-[555px] h-[415px]">
+                    <video class="w-[350px] h-[330px] pb-[50px] pr-[10px]" src="./imagenes/strangerthingvid.m4v"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--cuarta seccion-->
+    <section class="w-[100%] h-[550px] border-b-8 border-gray-800">
+        <div class="grid grid-cols-2 px-[45px] py-[70px]">
+            <div class="flex justify-center h-[388px]">
+                <img class="w-[504px] h-[378px]" src="./imagenes/imagenSection4.png" alt="">
+            </div>
+            <div class="flex flex-col justify-center items-start gap-[20px]">
+                <h1 class="w-[500px] text-white text-[53px] font-bold leading-[55px] w-[570px]">Crea perfiles para niños</h1>
+                <h2 class=" w-[500px] text-white text-[28px] font-normal leading-[35px] w-[570px]">Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</h2>
+            </div>
+        </div>
+    </section>
+
+<!--quinta seccion / preguntas frecuentes-->
+    <section>
+        <div>
+            <div>
+                <h1>Preguntas frecuentes</h1>
+            </div>
+            <ul>
+                <li class="text-white">¿Que es Netflix?</li>
+                <li class="text-white">¿Cuanto cuesta Netflix?</li>
+                <li class="text-white">¿Donde puedo ver Netflix?</li>
+                <li class="text-white">¿Como cancelo?</li>
+                <li class="text-white">¿Que puedo ver en Netflix?</li>
+                <li class="text-white">¿Es bueno netflix para los niños?</li>
+            </ul>
+            <div>
+                <h3 class=" texte-center text-[20px] text-white font-medium">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3>
+                <div class=" flex h-[70px]">
+                    <input class="w-[500px] h-[100%]" placeholder="Email" type="text">
+                    <img class="w-[200px] h-[100%]" src="./imagenes/comenzar.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--sextta seccion / -->
+    <section>
+
+    </section>
+
+</body>
+</html>
